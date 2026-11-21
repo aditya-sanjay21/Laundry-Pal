@@ -13,11 +13,11 @@ Demo login: `rahul.sharma@email.com` / `demo123`. Check it works: open `http://l
 
 ## 2. Run the app (Expo Go on your phone)
 Phone and computer must be on the same Wi-Fi. Install **Expo Go** from the Play Store / App Store.
-bash'''
+'''
 cd mobile
 npm install
 npx expo start
-
+'''
 Scan the QR code with Expo Go. The app finds the backend from the QR address automatically. If it cannot connect, set MANUAL_URL in mobile/src/config.js (e.g. http://192.168.1.5:5000) and allow port 5000 in your firewall. On an Android emulator it uses 10.0.2.2:5000.
 
 ## 3. Tests
